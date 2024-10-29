@@ -1,0 +1,52 @@
+.beautiful-permalink{
+    margin-bottom: 15px;
+}
+.beautiful-permalink .onoffswitch {
+    position: relative; width: 75px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.beautiful-permalink .onoffswitch-checkbox {
+    display: none;
+}
+.beautiful-permalink .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 0px;
+}
+.beautiful-permalink .onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.beautiful-permalink .onoffswitch-inner:before,.beautiful-permalink  .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 24px; padding: 0; line-height: 20px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+.beautiful-permalink .onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    color: #F52C2C;
+}
+.beautiful-permalink .onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    color: #9E9E9E;
+    text-align: right;
+}
+.beautiful-permalink .onoffswitch-switch {
+    display: block; width: 18px; margin: 0px;
+    background: #28A67A;
+    position: absolute; top: 0; bottom: 0;
+    right: 57px;
+    transition: all 0.3s ease-in 0s;
+}
+.beautiful-permalink .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.beautiful-permalink .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+#customlinkproduct{
+	display:none;
+}
